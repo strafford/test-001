@@ -7,6 +7,7 @@ $smarty = new \Smarty();
 $_SERVER['DOCUMENT_ROOT'] = __DIR__;
 
 $smarty->setConfigDir($_SERVER['DOCUMENT_ROOT']);
+$smarty->setTemplateDir($_SERVER['DOCUMENT_ROOT']);
 
 if(!is_dir($_SERVER['DOCUMENT_ROOT'] . '/cache'))
   mkdir($_SERVER['DOCUMENT_ROOT'] . '/cache');
