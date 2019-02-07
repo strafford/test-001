@@ -2,3 +2,4 @@
 cache/*.php
 cache/templates/*.php
 vendor/*
+*.sh
