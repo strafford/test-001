@@ -10,6 +10,8 @@ function Zsmarty_block_t ($params, $content, Smarty_Internal_Template $template,
 }
 
 $smarty->registerPlugin('block', 'tz', 'Zsmarty_block_t');
+$smarty->registerPlugin('block', 't', 'smarty_block_t');
+
 
 $smarty->display(__FILE__);
 
